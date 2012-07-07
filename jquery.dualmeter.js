@@ -12,17 +12,17 @@
             // Outer div width
             'width': '123',
             // Outer div background image
-            'bgImage': 'images/meter_bg.gif',
+            'bgImage': 'images/meter_bg.png',
             // The meter bar images for the inner divs
             'progBarImages': {
-                0:  ['images/meter_green.gif',
-                     'images/meter_green_dark.gif'],
-                25: ['images/meter_yellow.gif',
-                     'images/meter_yellow_dark.gif'],
-                50: ['images/meter_orange.gif',
-                     'images/meter_orange_dark.gif'],
-                75: ['images/meter_red.gif',
-                     'images/meter_red_dark.gif']
+                0:  ['images/meter_green.png',
+                     'images/meter_green_dark.png'],
+                25: ['images/meter_yellow.png',
+                     'images/meter_yellow_dark.png'],
+                50: ['images/meter_orange.png',
+                     'images/meter_orange_dark.png'],
+                75: ['images/meter_red.png',
+                     'images/meter_red_dark.png']
             }
         }, options);
 
