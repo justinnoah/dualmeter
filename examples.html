@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="jquery.dualmeter.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$("#example1").dualMeter({'primary':'24','secondary':'10'});
+	$("#example2").dualMeter({'primary':'49','secondary':'33'});
+	$("#example3").dualMeter({'primary':'51','secondary':'18'});
+	$("#example4").dualMeter({'primary':'74','secondary':'5'});
+	$("#example5").dualMeter({'primary':'76','secondary':'50'});
+	$("#example6").dualMeter({'primary':'128','secondary':'0'});
+	$("#example7").dualMeter({'primary':'-32','secondary':'17'});
+	$("#example8").dualMeter({'primary':'128','secondary':'-17'});
+	$("#example9").dualMeter({'primary':'18','secondary':'-17'});
+	$("#example10").dualMeter({'primary':'-42','secondary':'-17'});
+	$("#example11").dualMeter({'primary':'-42','secondary':'50'});
+	$("#example12").dualMeter({'primary':'3','secondary':'0'});
+	$("#example13").dualMeter({'primary':'0','secondary':'3'});
+});
+</script>
+</head>
+<body>
+Build a disctionary with a primary and secondary value.<br />
+The values must be a number between 0 and 100.<br />
+<pre>
+var settings = {
+    'primary':'50',
+    'secondary':'22',
+}
+</pre>
+Pass the settings to an element that dualMeter is called on:<br />
+<pre>
+$('#myelement').dualMeter(settings);
+</pre><br />
+Here are a few examples:<br />
+<pre>{'primary':'24','secondary':'10'}</pre>
+<div id=example1></div>
+<pre>{'primary':'49','secondary':'33'}</pre>
+<div id=example2></div>
+<pre>{'primary':'51','secondary':'18'}</pre>
+<div id=example3></div>
+<pre>{'primary':'74','secondary':'5'}</pre>
+<div id=example4></div>
+<pre>{'primary':'76','secondary':'50'}</pre>
+<div id=example5></div>
+<pre>{'primary':'128','secondary':'0'}</pre>
+<div id=example6></div>
+<pre>{'primary':'-32','secondary':'17'}</pre>
+<div id=example7></div>
+<pre>{'primary':'128','secondary':'-17'}</pre>
+<div id=example8></div>
+<pre>{'primary':'18','secondary':'-17'}</pre>
+<div id=example9></div>
+<pre>{'primary':'-42','secondary':'-17'}</pre>
+<div id=example10></div>
+<pre>{'primary':'-42','secondary':'50'}</pre>
+<div id=example11></div>
+<pre>{'primary':'3','secondary':'0'}</pre>
+<div id=example12></div>
+<pre>{'primary':'0','secondary':'3'}</pre>
+<div id=example13></div>
+</body>
+</html>
+
